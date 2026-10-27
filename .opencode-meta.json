@@ -1,0 +1,29 @@
+{
+  "enums": {},
+  "exports": {
+    "src/roman.py": [
+      "to_roman",
+      "from_roman"
+    ],
+    "README.md": [],
+    "tests/test_roman.py": [
+      "test_to_roman_casos_conocidos",
+      "test_to_roman_usa_formas_sustractivas",
+      "test_to_roman_limite_inferior",
+      "test_to_roman_limite_superior",
+      "test_to_roman_fuera_de_rango",
+      "test_to_roman_tipo_invalido",
+      "test_to_roman_solo_devuelve_simbolos_validos",
+      "test_from_roman_casos_conocidos",
+      "test_from_roman_limite_inferior",
+      "test_from_roman_limite_superior",
+      "test_from_roman_acepta_minusculas",
+      "test_from_roman_rechaza_no_canonicos",
+      "test_from_roman_rechaza_cadenas_invalidas",
+      "test_from_roman_tipo_invalido",
+      "test_roundtrip_rango_completo",
+      "test_roundtrip_en_minusculas",
+      "test_api_publica_limitada"
+    ]
+  }
+}
